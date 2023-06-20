@@ -1,9 +1,13 @@
 <script >
 
 import Header from './components/Header.vue'
-import PortfolioItem from './components/PortfolioItem.vue'
 import SocialLink from './components/SocialLink.vue'
-
+import About from './components/About.vue'
+import Work from './components/Work.vue'
+import Work2 from './components/Work2.vue'
+import Work3 from './components/Work3.vue'
+import Work4 from './components/Work4.vue'
+import Work5 from './components/Work5.vue'
 
 import contentsData from './assets/contents.json'
 
@@ -15,8 +19,14 @@ export default {
   },
   components: {
     Header,
-    PortfolioItem,
     SocialLink,
+    About,
+    Work,
+    Work2,
+    Work3,
+    Work4,
+    Work5,
+
   },
 };
 
@@ -25,17 +35,13 @@ export default {
 <template>
   <main>
     <Header />
-
-    <div id="works" class="row">
-      <div class="col-12 col-md-6" v-for="work in contents.works" :key="work.id">
-         <PortfolioItem 
-          :title="work.title"
-          :abstract="work.description"
-          :imageUrl="work.image_thumbnail"
-        />
-      </div>
-    </div>
-
+    <About />
+    <Work />
+    <Work2 />
+    <Work3 />
+    <Work4 />
+    <Work5 />
+    
     <div id="social-links" class="row">
       <ul>
         <li v-for="link in contents.social_links" :key="link.id">
@@ -47,6 +53,8 @@ export default {
         </li>
       </ul>
     </div>
+
+   <Footer />
   </main>
 </template>
 

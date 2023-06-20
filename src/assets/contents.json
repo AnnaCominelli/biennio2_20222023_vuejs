@@ -6,11 +6,6 @@
       "url": "https://www.facebook.com"
     },
     {
-      "id": 2,
-      "name": "twitter",
-      "url": "https://www.twitter.com"
-    },
-    {
       "id": 3,
       "name": "instagram",
       "url": "https://www.instagram.com"
@@ -33,19 +28,28 @@
     },
     {
       "id": 2,
-      "title": "Work 2",
+      "title": "Wetravel - App Design",
       "description": "This is the second work",
-      "image_thumbnail": "https://picsum.photos/300/200",
-      "image_detail": "https://picsum.photos/1024/768",
+      "image_thumbnail": "./src/assets/work1.png",
+      "image_detail": "./src/assets/work1.png",
       "client": "Client 1",
       "url": "https://www.google.com"
     },
     {
       "id": 3,
-      "title": "Work 3",
+      "title": "FR Progetti - Logo Design",
       "description": "third work",
-      "image_thumbnail": "https://picsum.photos/300/200",
-      "image_detail": "https://picsum.photos/1024/768",
+      "image_thumbnail": "./src/assets/work3.png",
+      "image_detail": "./src/assets/work3.png",
+      "client": "Client 1",
+      "url": "https://www.google.com"
+    },
+        {
+      "id": 3,
+      "title": "Soory - App Design",
+      "description": "third work",
+      "image_thumbnail": "./src/assets/work2.png",
+      "image_detail": "./src/assets/work2.png",
       "client": "Client 1",
       "url": "https://www.google.com"
     }
