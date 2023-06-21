@@ -2,18 +2,24 @@
   "social_links": [
     {
       "id": 1,
-      "name": "facebook",
-      "url": "https://www.facebook.com"
+      "name": "Behance",
+      "url": "https://www.behance.net/annacominelli"
     },
     {
       "id": 3,
-      "name": "instagram",
-      "url": "https://www.instagram.com"
+      "img": "./src/assets/work3.png",
+      "name": "Instagram",
+      "url": "https://www.instagram.com/anna_cominelli/"
     },
     {
       "id": 4,
-      "name": "linkedin",
-      "url": "https://www.linkedin.com"
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/anna-cominelli-a33706239/"
+    },
+    {
+      "id": 5,
+      "name": "cominellianna98@gmail.com",
+      "url": "mailto:cominellianna98@gmail.com"
     }
   ],
   "works": [

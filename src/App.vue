@@ -8,6 +8,7 @@ import Work2 from './components/Work2.vue'
 import Work3 from './components/Work3.vue'
 import Work4 from './components/Work4.vue'
 import Work5 from './components/Work5.vue'
+import DigitalSkills from './components/DigitalSkills.vue'
 
 import contentsData from './assets/contents.json'
 
@@ -26,6 +27,7 @@ export default {
     Work3,
     Work4,
     Work5,
+    DigitalSkills,
 
   },
 };
@@ -41,12 +43,14 @@ export default {
     <Work3 />
     <Work4 />
     <Work5 />
+    <DigitalSkills/>
     
     <div id="social-links" class="row">
       <ul>
         <li v-for="link in contents.social_links" :key="link.id">
           <SocialLink 
             :id="link.id"
+            :img="link.img"
             :name="link.name"
             :url="link.url"
           />

@@ -54,6 +54,6 @@ margin-right: 100px;
  color: white;
  margin-top: 10px;
  border-color: none;
-border: 0px; 
+ border: 0px; 
 }
 </style>
