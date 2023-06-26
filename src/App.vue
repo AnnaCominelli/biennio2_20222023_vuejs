@@ -3,7 +3,7 @@
 import Header from './components/Header.vue'
 import SocialLink from './components/SocialLink.vue'
 import About from './components/About.vue'
-import Work from './components/Work.vue'
+import Work1 from './components/Work1.vue'
 import Work2 from './components/Work2.vue'
 import Work3 from './components/Work3.vue'
 import Work4 from './components/Work4.vue'
@@ -22,7 +22,7 @@ export default {
     Header,
     SocialLink,
     About,
-    Work,
+    Work1,
     Work2,
     Work3,
     Work4,
@@ -38,27 +38,14 @@ export default {
   <main>
     <Header />
     <About />
-    <Work />
+    <Work1 />
     <Work2 />
     <Work3 />
     <Work4 />
     <Work5 />
     <DigitalSkills/>
-    
-    <div id="social-links" class="row">
-      <ul>
-        <li v-for="link in contents.social_links" :key="link.id">
-          <SocialLink 
-            :id="link.id"
-            :img="link.img"
-            :name="link.name"
-            :url="link.url"
-          />
-        </li>
-      </ul>
-    </div>
+    <SocialLink />
 
-   <Footer />
   </main>
 </template>
 

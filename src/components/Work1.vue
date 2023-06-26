@@ -32,7 +32,7 @@ Search, create and share excuses for any occasions!
 .works {
 max-height: 220px;
 margin-left: 32px;
-margin-bottom: 135px;
+margin-bottom: 120px;
 margin-top: -30px;
 }
 .app {

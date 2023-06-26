@@ -29,7 +29,7 @@
 .app {
 max-height: 400px;
 margin-top: 50px;
-margin-bottom: 300px;
+margin-bottom: 275px;
 margin-left: 30px;
 }
 .title {

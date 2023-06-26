@@ -4,36 +4,36 @@
 
 <template>
     <div class="title" >
-         <img class="softwares" src="@/assets/softwares.png" alt="" />
+         <img class="softwares" src="@/assets/softwares.svg" alt="" />
     </div>
    <div class="container text-center">
       <div class="row">
         <div class="col align-self-start">
-           <img class="digital" src="@/assets/photoshop.png" alt="" />
+           <img class="digital" src="@/assets/photoshop.svg" alt="" />
            <h2>
             Photoshop
            </h2>
         </div>
         <div class="col align-self-start">
-          <img class="digital" src="@/assets/illustrator.png" alt="" />
+          <img class="digital" src="@/assets/illustrator.svg" alt="" />
           <h2>
             Illustrator
           </h2>
         </div>
         <div class="col align-self-start">
-           <img class="digital" src="@/assets/indesign.png" alt="" />
+           <img class="digital" src="@/assets/indesign.svg" alt="" />
            <h2>
             Indesign
            </h2>
         </div>
         <div class="col align-self-start">
-               <img class="digital" src="@/assets/xd.png" alt="" />
+               <img class="digital" src="@/assets/xd.svg" alt="" />
                <h2>
                 Xd
                </h2>
             </div>
              <div class="col align-self-start">
-                   <img class="digital" src="@/assets/animate.png" alt="" />
+                   <img class="digital" src="@/assets/animate.svg" alt="" />
                    <h2>
                  Animate
                    </h2>
@@ -43,31 +43,31 @@
        <div class="container text-center">
           <div class="row">
             <div class="col align-self-start">
-               <img class="digital" src="@/assets/effect.png" alt="" />
+               <img class="digital" src="@/assets/effect.svg" alt="" />
                <h2>
                 AfterEffects
                </h2>
             </div>
             <div class="col align-self-start">
-              <img class="digital" src="@/assets/figma.png" alt="" />
+              <img class="digital" src="@/assets/webflow.svg" alt="" />
               <h2>
-                Figma
+             Webflow
               </h2>
             </div>
             <div class="col align-self-start">
-               <img class="digital" src="@/assets/webflow.png" alt="" />
+               <img class="digital" src="@/assets/figma.svg" alt="" />
                <h2>
-                Webflow
+               Figma
                </h2>
             </div>
             <div class="col align-self-start">
-                   <img class="digital" src="@/assets/protopie.png" alt="" />
+                   <img class="digital" src="@/assets/protopie.svg" alt="" />
                    <h2>
                     Protopie
                    </h2>
                 </div>
                  <div class="col align-self-start">
-                       <img class="digital" src="@/assets/wordpress.png" alt="" />
+                       <img class="digital" src="@/assets/wordpress.svg" alt="" />
                        <h2>
                      Wordpress
                     
@@ -76,7 +76,7 @@
           </div>
         </div>
     <div>
-        <img class="contacts" src="@/assets/contacts.png" alt="" />
+        <img class="contacts" src="@/assets/contacts.svg" alt="" />
     </div>
 </template>
 
@@ -84,14 +84,14 @@
 .title {
     display: flex;
     justify-content: center;
-    margin-bottom: 140px;
+    margin-bottom: 175px;
     margin-top: -90px;
 }
 .softwares {
-    max-width: 690px;
+    max-width: 710px;
 }
 .digital {
-    max-height: 90px;
+    max-height: 70px;
 }
 h2 { 
 font-size: medium;
@@ -100,7 +100,7 @@ color: #FF3578;
 margin-top: 15px;
 }
 .container {
-    margin-top: 100px;
+    margin-top: 95px;
 }
 .contacts {
     max-height: 220px;

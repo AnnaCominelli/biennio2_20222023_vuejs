@@ -33,7 +33,7 @@
     max-height: 400px;
     margin-left: 20px;
     margin-top: 50px;
-    margin-bottom: 300px;
+    margin-bottom: 280px;
 }
 .title {
     margin-top: 80px;
@@ -60,5 +60,22 @@
     margin-left: 252px;
     margin-top: 10px;
     color: black;
+}
+@media (max-width: 1100px) {
+.row {
+    flex-wrap: wrap;
+}
+    .profilo {
+      margin-top: -300px;
+            }
+    .text {
+        font-size: medium;
+    }
+   
+}
+@media (max-width:600px) {
+    .profilo {
+      max-width: 800%;
+    }
 }
 </style>

@@ -11,7 +11,7 @@
 <div class="text" >
 <p>
  Discovering Japan. <br>
-  Be amazed by the wonders Japan can give you <br>
+  Be amazed by the wonders Japan can give you. <br>
  Project realized with a WordPress' template.
 </p>
   <button type="button" class="btn btn-dark btn-sm">Scopri</button>
