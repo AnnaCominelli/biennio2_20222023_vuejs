@@ -107,4 +107,20 @@ margin-top: 15px;
     margin-top: 230px;
     margin-left: 32px;
 }
+@media (max-width:1100px) {
+  .softwares {
+    max-width: 90%;
+    margin-left: 2px;
+  }
+}
+.digital {
+  max-width: 50%;
+  margin-top: -80px;
+}
+.contacts {
+  max-width: 90%;
+  margin-top: 140px;
+  margin-left: 14px;
+}
+
 </style>

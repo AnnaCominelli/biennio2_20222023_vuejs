@@ -7,7 +7,7 @@
      <img class="works" src="@/assets/work.png" alt="" />
   </div>
 <div class="row align-items-start">
-    <div class="col-6">
+    <div class="col-6 ">
       <div class="title" >
       Soory App
     </div>
@@ -65,4 +65,5 @@ margin-right: 100px;
  border-color: none;
 border: 0px; 
 }
+
 </style>

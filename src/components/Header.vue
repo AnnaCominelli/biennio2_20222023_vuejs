@@ -4,7 +4,7 @@
 
 <template>
   <header class="header" >
-    <div class="wrapper">
+    <div>
     <img class="portfolio" src="@/assets/portfolio.svg" alt="" />
     <div class="info" >
       <p id="name" >ANNA COMINELLI</p>
@@ -33,17 +33,4 @@ margin-top: -150px;
   font-weight: 500;
   margin-bottom: -3px;
 }
-@media (max-width: 1100px){
-.portfolio{
-    width: 100%;
-}
-#name{
-  font-size: small;
-} 
-#description{
-  font-size: small;
-} 
-  }
-
-
 </style>

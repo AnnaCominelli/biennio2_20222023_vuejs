@@ -63,4 +63,18 @@
 .col {
   margin-bottom: 15px;
 }
+@media (max-width:1100px) {
+  .works {
+    margin-left: -18px;
+  }
+  .link-dark {
+    margin-left:-18px ;
+  }
+  #form {
+    margin: auto;
+    margin-top: -1px;
+    max-width: 190%;
+  
+  }
+}
 </style>

@@ -12,7 +12,6 @@
 <p>
   Mediterranean to the core. <br>
   The project consists in the restyling of the Gin Mare website <br> with the aim of making the navigation experience memorable. 
- 
 </p>
   <button type="button" class="btn btn-dark btn-sm">Scopri</button>
 </div>
@@ -31,6 +30,7 @@ max-height: 400px;
 margin-top: 50px;
 margin-bottom: 275px;
 margin-left: 30px;
+
 }
 .title {
 display: flex;
@@ -48,6 +48,8 @@ text-align: end;
 .col-6 {
 margin-top: 135px;
 margin-right: 100px;
+
+
 }
 .btn {
  background-color: #195A7B;
@@ -56,4 +58,5 @@ margin-right: 100px;
  border-color: none;
 border: 0px; 
 }
+
 </style>

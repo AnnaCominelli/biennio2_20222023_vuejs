@@ -12,7 +12,6 @@
             <div class="title" >
              Hi!
             </div>
-
          <p class="text">
         My name is Anna, I have a degree in Graphic Design & Digital Communication. <br> I have a creative mind and keen eye for detail, which allows me to create visually appealing and communicative projects. 
           </p>
@@ -34,6 +33,7 @@
     margin-left: 20px;
     margin-top: 50px;
     margin-bottom: 280px;
+  
 }
 .title {
     margin-top: 80px;
@@ -61,21 +61,5 @@
     margin-top: 10px;
     color: black;
 }
-@media (max-width: 1100px) {
-.row {
-    flex-wrap: wrap;
-}
-    .profilo {
-      margin-top: -300px;
-            }
-    .text {
-        font-size: medium;
-    }
-   
-}
-@media (max-width:600px) {
-    .profilo {
-      max-width: 800%;
-    }
-}
+
 </style>
